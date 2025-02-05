@@ -1,5 +1,4 @@
 from flask import Flask
-from config import Config
 from app.blueprints.auth import auth_bp
 
 def create_app():

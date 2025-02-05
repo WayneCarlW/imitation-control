@@ -6,7 +6,7 @@ def login():
     if request.method == "POST":
         #LOGIN LOGIC
         return redirect(url_for("dashboard.dashboard_home"))
-    return render_template("auth/login.html"))
+    return render_template("auth/login.html")
 
 @auth_bp.route("/logout")
 def logout():

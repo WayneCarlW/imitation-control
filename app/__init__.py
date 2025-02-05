@@ -6,7 +6,7 @@ from app.extensions import mongo
 from app.blueprints.auth import auth_bp
 
 def create_app(config_name="development"):
-    load_dotenv()
+    load_dotenv("./env")
     app = Flask(__name__)
     app.config.from_object(config[config_name])
 

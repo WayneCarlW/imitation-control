@@ -10,6 +10,8 @@ def create_app(config_name="development"):
     app = Flask(__name__)
     app.config.from_object(config[config_name])
 
+    mongo.init_app(app)
+
 
     #Registration of blueprints
     app.register_blueprint(auth_bp)

@@ -3,3 +3,5 @@ flask-pymongo
 flask
 wtforms
 flask-login
+flask-wtf
+email_validator

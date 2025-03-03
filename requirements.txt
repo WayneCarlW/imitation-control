@@ -5,3 +5,7 @@ wtforms
 flask-login
 flask-wtf
 email_validator
+flask-wtforms
+email-validator
+flask-mail
+

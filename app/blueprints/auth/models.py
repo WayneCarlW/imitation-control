@@ -1,5 +1,5 @@
 from flask_login import UserMixin
-from app import mongo
+from app.extensions import mongo
 
 class User(UserMixin):
     def __init__(self, user_id, firstname, lastname, password, email):

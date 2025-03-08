@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farmer Dashboard - Profile</title><style>
+    <title>Farmer Dashboard - Home</title>
+    <style>
         body, html { margin: 0; padding: 0; font-family: Arial, sans-serif; }
         .container { display: flex; flex-direction: column; height: 100vh; }
         header { background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; }
@@ -29,11 +30,21 @@
         </ul>
     </nav>
     <main>
-        <h2>Profile</h2>
-        <div style="background-color: white; border-radius: 5px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p>Name: John Doe</p>
-            <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
-            <p>Member Since: 2023</p>
+        <h2>Products</h2>
+        <div class="product">
+            <h3>Product 1</h3>
+            <p>Price: ksh.10</p>
+            <button onclick="window.location.href='cart.html';">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <p>Price: ksh.1000</p>
+            <button onclick="window.location.href='cart.html';">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Product 3</h3>
+            <p>Price: ksh.200</p>
+            <button onclick="window.location.href='cart.html';">Add to Cart</button>
         </div>
     </main>
 </div>
